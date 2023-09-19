@@ -4,11 +4,11 @@
 
 # Site
 title: Hexo
-subtitle: ''
-description: ''
+subtitle: '子标题'
+description: '网站描述'
 keywords:
-author: John Doe
-language: en
+author: Guo MengWei
+language: zh-CN
 timezone: ''
 
 # URL
