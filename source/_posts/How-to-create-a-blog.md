@@ -36,7 +36,24 @@ PS：为了后续`netlify`建站方便，在`package.json`里面添加一个命�
 
 **配置https：**netlify配置https访问
 
+**更换主题：**为了方便将主题添加到github上，所以将主题作为submodule
+1.在themes文件夹下添加主题：(以yilia-plus为例)
 
+```git
+cd themes
+git submodule add https://github.com/JoeyBling/hexo-theme-yilia-plus
+git commit -m "add submodule: yilia-plus"
+```
 
+2.修改_config.yml文件：
 
+```
+theme: hexo-themes-yilia-plus
+```
+
+3.保存到github仓库：
+
+```
+git push
+```
 
