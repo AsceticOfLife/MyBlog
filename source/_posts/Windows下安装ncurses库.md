@@ -2,7 +2,7 @@
 title: Windows下安装ncurses库
 date: 2023-09-23 15:24:31
 categories: 
-- ncurses
+- Tetris
 tags:
 - ncurses库
 ---
