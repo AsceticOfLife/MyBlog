@@ -19,7 +19,7 @@ ncurses库在2023年之前不支持windows平台，在2023年之后更新了wind
 
 到[Index of /archives/ncurses (invisible-mirror.net)](https://invisible-mirror.net/archives/ncurses/)下载win32版本（64位同样可用），解压之后目录如下：
 
-![](/ncurses文件夹.png)
+![](ncurses文件夹.png)
 
 其中bin目录下是动态链接库，实际编译时应该与需要生成程序在同级目录下；
 lib目录下是动态链接库的导引库，可以选择放在工作目录下（推荐）或者MinGW编译器的lib目录中（不推荐）；
@@ -27,7 +27,7 @@ include目录是头文件，可以选择放在工作目录下（推荐）或者M
 
 以一个项目文件为例：
 
-![](/文件夹结构.png)
+![](文件夹结构.png)
 
 这里lib、ncursesw以及四个dll文件均是压缩文件解压出来的文件，Mytetris文件夹是我的类文件，code.cpp是主文件，code.exe是生成文件，如果想要运行code.exe，那么就需要动态链接库dll的支持。
 
