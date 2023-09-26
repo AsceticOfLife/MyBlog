@@ -17,6 +17,8 @@ tags:
 
 **博客建站：**Netlify + 配置域名 （建立静态网页以及通过域名访问）
 
+<!--more-->
+
 PS：为了后续`netlify`建站方便，在`package.json`里面添加一个命令：
 
 ```json
