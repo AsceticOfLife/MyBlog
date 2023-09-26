@@ -30,6 +30,13 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+# hexo-generator-searchdb
+search:
+  path: search.xml # 索引文件路径，相对于根目录
+  field: post # 搜索范围，默认是post，另外可以选择page、all，设置成all表示搜索所有页面
+  format: html
+  limit: 10 # 最大搜索条目数
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
