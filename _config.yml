@@ -37,6 +37,16 @@ search:
   format: html
   limit: 10 # 最大搜索条目数
 
+# hexo-symbols-count-time
+symbols_count_time:
+  symbols: true # 文章字数统计
+  time: true # 文章阅读时间统计
+  total_symbols: true # 站点总字数统计
+  total_time: true # 站点总阅读时间统计
+  exclude_codeblock: false 
+  wpm: 300 # 每分钟阅读字数，用于预估文章阅读时间
+  suffix: "mins."
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
