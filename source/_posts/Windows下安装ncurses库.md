@@ -13,6 +13,8 @@ typora-root-url: Windows下安装ncurses库
 ncurses是一个管理应用程序在字符终端显示的函数库。它提供了移动光标，建立窗口，产生颜色，处理鼠标操作等功能。
 ncurses提供的是字符用户界面，而非图形用户界面。
 
+<!--more-->
+
 # ncurses库下载
 
 ncurses库在2023年之前不支持windows平台，在2023年之后更新了windows下MinGW编译器版本链接库。
