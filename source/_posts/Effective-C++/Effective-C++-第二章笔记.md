@@ -1,5 +1,5 @@
 ---
-title: Effective C++ 第二章读书笔记
+title: 《Effective C++》第二章笔记
 date: 2023-09-28 16:56:32
 description: 《Effective C++》第二章读书笔记，主要是介绍C++中类的构造、析构函数以及赋值运算符。
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Effective.C++.第一章笔记
+title: 《Effective C++》第一章笔记
 date: 2023-09-27 17:17:21
 description: 《Effective C++》第一章读书笔记，主要是介绍C++与C或者其它语言不相同的地方。
 categories: 
