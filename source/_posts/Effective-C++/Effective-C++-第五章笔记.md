@@ -1,5 +1,5 @@
 ---
-title: 《Effective C++》第四章笔记
+title: 《Effective C++》第五章笔记
 date: 2023-10-11 19:37:24
 description: 《Effective C++》第五章读书笔记，在适当提出类的定义和函数的定义之后，就需要实现它们。本章主要介绍实现时需要注意的一些细节。
 categories:
