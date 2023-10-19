@@ -27,6 +27,8 @@ typora-root-url: 基于Ncurses库开发的俄罗斯方块小游戏
 
 ![](Abr_Chunk类图.png)
 
+
+
 # 游戏类设计
 
 游戏类维护背景板组件、方块组件等，利用ncurses库的函数将背景板刷新到屏幕上。
