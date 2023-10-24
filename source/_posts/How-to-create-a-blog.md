@@ -98,6 +98,8 @@ post_asset_folder: true
 
 
 
+
+
 **永久链接：**
 
 未修改之前默认生成的文章链接形式是：
@@ -152,9 +154,7 @@ npm install hexo-generator-sitemap --save
 
 站点地图可以提交给搜引擎。
 
-**API自动提交：**
 
-1.安装插件
 
 
 
