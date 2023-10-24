@@ -1,11 +1,12 @@
 ---
 title: 《Effective C++》第一章笔记
-date: 2023-09-27 17:17:21
 description: 《Effective C++》第一章读书笔记，主要是介绍C++与C或者其它语言不相同的地方。
-categories: 
-- 《Effective C++》
+categories:
+  - 《Effective C++》
 tags:
-- 读书笔记
+  - 读书笔记
+abbrlink: 3058992815
+date: 2023-09-27 17:17:21
 ---
 
 # 第一章 让自己习惯C++

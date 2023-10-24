@@ -1,10 +1,11 @@
 ---
 title: 如何创建自己的博客
-date: 2023-09-19 16:02:57
 tags:
-- 搭建博客
-- hexo主题
-- 引用资源
+  - 搭建博客
+  - hexo主题
+  - 引用资源
+abbrlink: 1853576402
+date: 2023-09-19 16:02:57
 ---
 
 
@@ -34,6 +35,8 @@ PS：为了后续`netlify`建站方便，在`package.json`里面添加一个命�
     // ......
 }
 ```
+
+
 
 
 
@@ -95,5 +98,40 @@ post_asset_folder: true
 
 
 
+**永久链接：**
 
+未修改之前默认生成的文章链接形式是：
 
+```
+http://www.example.com/2023/08/16/Hello%20World/
+```
+
+这是基于Front-matter中的date（文章发表时间）以及文件名来生成页面路径。
+
+下面借助自动算法生成链接：
+
+1.安装hexo-abbrlink插件：
+
+```
+npm install hexo-abbrlink --save
+```
+
+2.配置站点配置文件：
+
+```
+url: https://guomw.net
+# permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+# abbrlink config
+abbrlink:
+  alg: crc32  #support crc16(default) and crc32
+  rep: dec    #support dec(default) and hex
+```
+
+注意：在生成之前就要改好算法和形式，不然后面再改的话会导致链接不统一。
+
+补救措施：首先使用hexo s在本地生成网站，然后依次打开已经创建的文章重新保存即可。

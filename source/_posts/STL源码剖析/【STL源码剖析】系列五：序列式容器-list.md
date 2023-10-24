@@ -1,12 +1,13 @@
 ---
 title: 【STL源码剖析】系列五：序列式容器--list
-date: 2023-10-23 21:32:31
 categories:
-- STL源码剖析
+  - STL源码剖析
 tags:
-- STL
-- 读书笔记
+  - STL
+  - 读书笔记
 typora-root-url: 【STL源码剖析】系列五：序列式容器-list
+abbrlink: 4087862511
+date: 2023-10-23 21:32:31
 ---
 
 ## 前言

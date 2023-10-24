@@ -1,12 +1,13 @@
 ---
 title: 【STL源码剖析】系列二：空间配置器allocator
-date: 2023-10-19 09:13:27
 categories:
-- STL源码剖析
+  - STL源码剖析
 tags:
-- STL
-- 读书笔记
+  - STL
+  - 读书笔记
 typora-root-url: 【STL源码剖析】系列二：空间配置器allocator
+abbrlink: 3076589165
+date: 2023-10-19 09:13:27
 ---
 
 # 前言

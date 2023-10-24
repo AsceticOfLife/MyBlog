@@ -1,12 +1,13 @@
 ---
 title: 【STL源码剖析】系列三：迭代器和traits技巧
-date: 2023-10-19 09:31:20
 categories:
-- STL源码剖析
+  - STL源码剖析
 tags:
-- STL
-- 读书笔记
+  - STL
+  - 读书笔记
 typora-root-url: 【STL源码剖析】系列三：迭代器和traits技巧
+abbrlink: 1569660478
+date: 2023-10-19 09:31:20
 ---
 
 # 前言

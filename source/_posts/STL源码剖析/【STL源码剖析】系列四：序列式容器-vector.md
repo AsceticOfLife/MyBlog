@@ -1,12 +1,13 @@
 ---
 title: 【STL源码剖析】系列四：序列式容器--vector
-date: 2023-10-19 09:42:42
 categories:
-- STL源码剖析
+  - STL源码剖析
 tags:
-- STL
-- 读书笔记
+  - STL
+  - 读书笔记
 typora-root-url: 【STL源码剖析】系列四：序列式容器-vector
+abbrlink: 907146040
+date: 2023-10-19 09:42:42
 ---
 
 ## 前言

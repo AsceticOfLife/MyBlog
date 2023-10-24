@@ -1,11 +1,12 @@
 ---
 title: 《Effective C++》第七章笔记
-date: 2023-10-15 09:52:14
 description: 《Effective C++》第七章读书笔记，本章主要是介绍在使用模板编程时的一些注意事项。
 categories:
-- 《Effective C++》
+  - 《Effective C++》
 tags:
-- 读书笔记
+  - 读书笔记
+abbrlink: 1566784940
+date: 2023-10-15 09:52:14
 ---
 
 # 模板与泛型编程

@@ -1,12 +1,13 @@
 ---
 title: 基于Ncurses库开发的俄罗斯方块小游戏
-date: 2023-09-25 09:49:13
 categories:
-- Tetris
+  - Tetris
 tags:
-- ncurses库
-- tetris
+  - ncurses库
+  - tetris
 typora-root-url: 基于Ncurses库开发的俄罗斯方块小游戏
+abbrlink: 1833849217
+date: 2023-09-25 09:49:13
 ---
 
 # 前言

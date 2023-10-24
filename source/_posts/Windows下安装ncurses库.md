@@ -1,11 +1,12 @@
 ---
 title: Windows下安装ncurses库
-date: 2023-09-23 15:24:31
-categories: 
-- Tetris
+categories:
+  - Tetris
 tags:
-- ncurses库
+  - ncurses库
 typora-root-url: Windows下安装ncurses库
+abbrlink: 3901943630
+date: 2023-09-23 15:24:31
 ---
 
 # 前言

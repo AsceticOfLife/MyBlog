@@ -1,11 +1,12 @@
 ---
 title: VScode借助插件实现中英文输入法自动切换
-date: 2023-10-19 11:14:51
 categories:
-- 配置
+  - 配置
 tags:
-- VScode插件
+  - VScode插件
 typora-root-url: VScode借助插件实现中英文输入法自动切换
+abbrlink: 375587350
+date: 2023-10-19 11:14:51
 ---
 
 # 前言

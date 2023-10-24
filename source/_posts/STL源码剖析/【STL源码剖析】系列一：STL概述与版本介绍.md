@@ -1,12 +1,13 @@
 ---
 title: 【STL源码剖析】系列一：STL概述与版本介绍
-date: 2023-10-19 08:25:57
 categories:
-- STL源码剖析
+  - STL源码剖析
 tags:
-- STL
-- 读书笔记
+  - STL
+  - 读书笔记
 typora-root-url: 【STL源码剖析】系列一：STL概述与版本介绍
+abbrlink: 2713497384
+date: 2023-10-19 08:25:57
 ---
 
 ## 前言

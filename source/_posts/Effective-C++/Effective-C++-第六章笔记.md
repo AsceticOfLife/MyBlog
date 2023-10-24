@@ -1,11 +1,14 @@
 ---
 title: 《Effective C++》第六章笔记
-date: 2023-10-13 10:30:58
-description: 《Effective C++》第六章读书笔记，本章主要介绍C++在面向对象编程上的一些细节，比如继承可以是单一继承或者多重继承；每一个继承连接可以是public、protected、private，也可以是virtual(虚基类)或者non-virtual；成员函数是否为virtual或者non-vritual等等。
+description: >-
+  《Effective
+  C++》第六章读书笔记，本章主要介绍C++在面向对象编程上的一些细节，比如继承可以是单一继承或者多重继承；每一个继承连接可以是public、protected、private，也可以是virtual(虚基类)或者non-virtual；成员函数是否为virtual或者non-vritual等等。
 categories:
-- 《Effective C++》
+  - 《Effective C++》
 tags:
-- 读书笔记
+  - 读书笔记
+abbrlink: 1957446843
+date: 2023-10-13 10:30:58
 ---
 
 # 第六章 继承与面向对象设计

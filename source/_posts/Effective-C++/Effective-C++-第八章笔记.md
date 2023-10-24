@@ -1,10 +1,11 @@
 ---
 title: 《Effective C++》第八章笔记
-date: 2023-10-15 09:54:19
 categories:
-- 《Effective C++》
+  - 《Effective C++》
 tags:
-- 读书笔记
+  - 读书笔记
+abbrlink: 2041722108
+date: 2023-10-15 09:54:19
 ---
 
 《Effective C++》第七章读书笔记，主要是关于C++内存管理的行为。主角是operator new和operator delete，配角是new-handler，当operator new无法满足内存需求时调用的函数。
