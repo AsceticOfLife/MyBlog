@@ -135,3 +135,16 @@ abbrlink:
 注意：在生成之前就要改好算法和形式，不然后面再改的话会导致链接不统一。
 
 补救措施：首先使用hexo s在本地生成网站，然后依次打开已经创建的文章重新保存即可。
+
+
+
+**配置百度、谷歌站点搜索：**
+
+1.创建站点地图：
+
+安装hexo-generator-sitemap插件：
+
+```
+npm install hexo-generator-sitemap --save
+```
+
