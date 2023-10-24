@@ -158,6 +158,10 @@ npm install hexo-generator-sitemap --save
 
 
 
+
+
+
+
 **外链处理：**
 
 通常我们的站点中会有很多外链，比如文章中引用了外部链接、用户在评论区发布的链接等等。某些低质量外链会对SEO产生负面影响。所以需要使用nofollow标签进行处理。这里借助hexo-filter-nofollow自动处理所有的外链。
