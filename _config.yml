@@ -132,3 +132,11 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'https://blog.cuijiacai.com/blog-building/' # peizhi blog
+    - 'www.example.com/sitemap.xml' # no use
