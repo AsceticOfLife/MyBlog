@@ -148,3 +148,39 @@ abbrlink:
 npm install hexo-generator-sitemap --save
 ```
 
+2.安装之后生成静态网页时就会自动生成sitemap.xml文件，就可以通过www.example.com/sitemap.xml访问站点地图。
+
+站点地图可以提交给搜引擎。
+
+**API自动提交：**
+
+1.安装插件
+
+
+
+**外链处理：**
+
+通常我们的站点中会有很多外链，比如文章中引用了外部链接、用户在评论区发布的链接等等。某些低质量外链会对SEO产生负面影响。所以需要使用nofollow标签进行处理。这里借助hexo-filter-nofollow自动处理所有的外链。
+
+1.安装插件：
+
+```
+npm install hexo-filter-nofollow --save
+```
+
+2.修改站点配置文件，添加以下配置：
+
+- field：设置为site，表示处理全站所有页面，还可以设置为post，只处理文章
+- exclude：要排除的链接
+
+```
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'xxx1.com'
+    - 'xxx2.com'
+```
+
+
+
