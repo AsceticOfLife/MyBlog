@@ -1,16 +1,17 @@
 ---
 title: >-
-  【STL源码剖析】系列十三：序列式容器--unordered_set、unordered_map、unordered_multiset和unordered_multimap
+  【STL源码剖析】系列十三：关联式容器-unordered-set、unordered-map、unordered-multiset和unordered-multimap
 keywords: 'STL源码剖析, unordered_set, unordered_map, unordered_multiset, unordered_multimap'
 categories:
   - STL源码剖析
 tags:
   - STL
   - 读书笔记
-typora-root-url: >-
-  【STL源码剖析】系列十三：序列式容器-unordered-set、unordered-map、unordered-multiset和unordered-multimap
-abbrlink: 3988966462
-date: 2023-11-11 09:42:13
+
+  【STL源码剖析】系列十三：关联式容器-unordered-set、unordered-map、unordered-multiset和unordered-multimap
+abbrlink: 4268388846
+date: 2023-11-13 17:51:35
+typora-root-url: 【STL源码剖析】系列十三：关联式容器-unordered-set、unordered-map、unordered-multiset和unordered-multimap
 ---
 
 ## 前言
@@ -49,7 +50,7 @@ hash_set所有对外接口都由hashtable提供，所以hash_set的所有行为�
 
 <img src="5-8-3.png" alt="image-20231111083217683" style="zoom:67%;" />
 
-<img src="D:\Blog\MyBlog\source\_posts\STL源码剖析\【STL源码剖析】系列十二：关联式容器-hashtable\5-7-32.png" alt="image-20231111083358643" style="zoom:67%;" />
+<img src="5-7-32.png" alt="image-20231111083358643" style="zoom:67%;" />
 
 <img src="5-8-4.png" alt="image-20231111083518185" style="zoom:67%;" />
 
@@ -96,14 +97,3 @@ hash_multimap特性与multimap完全相同，唯一的区别就是底层实现�
 hash_multimap实现上与hash_map的唯一区别就是：前者的插入操作使用底层机制hashtable的insert_equal，而后者采用insert_unique。
 
 因此这里不再列举源代码。
-
-
-
-
-
-
-
-
-
-
-
